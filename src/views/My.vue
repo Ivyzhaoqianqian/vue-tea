@@ -1,19 +1,23 @@
 <template>
-  <div class="home">
-    这是首页
+    <div class="my">
+        这是我的
 
-    
   <Tabbar></Tabbar>
 
-  </div>
+    </div>
 </template>
 
 <script>
 import Tabbar from '../components/common/Tabbar.vue'
 export default {
-  name: "Home",
+  name: "My",
   components:{
     Tabbar
   }
+  
 };
 </script>
+
+<style lang="scss" scoped>
+
+</style>
