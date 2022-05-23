@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    这是首页
+    <Header></Header>
+    这是首页内容
 
     
   <Tabbar></Tabbar>
@@ -9,12 +10,14 @@
 </template>
 
 <script>
-import Tabbar from '../components/common/Tabbar.vue'
+import Tabbar from '@/components/common/Tabbar.vue'
+import Header from '@/components/home/Header.vue'
 
 export default {
   name: "Home",
   components:{
-    Tabbar
+    Tabbar,
+    Header
   }
 };
 </script>

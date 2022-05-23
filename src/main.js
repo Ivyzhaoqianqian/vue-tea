@@ -5,6 +5,7 @@ import store from "./store";
 
 //公共css文件
 import './assets/css/commit.css'
+import './assets/fonts/iconfont.css'
 
 Vue.config.productionTip = false;
 

@@ -1,0 +1,30 @@
+{
+  "id": "3419930",
+  "name": "vue-tea",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2674476",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "9473831",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "12258831",
+      "name": "tea",
+      "font_class": "tea",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    }
+  ]
+}
