@@ -10,11 +10,30 @@
         <div class="kefu">
             <i class="iconfont icon-kefu"></i>
         </div>
+
+        <ly-tabs v-model="value">
+            <ly-tab-item name="1" title="选项卡1" />
+            <ly-tab-item name="2" title="选项卡2" />
+        </ly-tabs>
     </header>
 </template>
 
+<script>
+export default {
+  data() {
+    return  {
+        value: '1',
+        activeColor :'#A62E29',
+    }
+  }
+}
+
+</script>
+
+
+
 <style lang="scss" scoped>
-$background-color:rgba(166,46,41);
+$background-color:#A62E29;
 header {
     background-color:$background-color;
     display: flex;
@@ -55,5 +74,15 @@ img{
     font-size: 24px;
     color: #fff;
 }
+
+.ly-tabs{
+    position: fixed;
+    top: 56px;
+    left: 0;
+    border-bottom: none;
+}
+
+
+
 
 </style>
