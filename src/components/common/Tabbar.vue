@@ -93,7 +93,7 @@
 }
 
 .selected{
-    color:red
+    color:rgb(22, 119, 255)
 }
    
     

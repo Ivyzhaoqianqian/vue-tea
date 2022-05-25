@@ -13,11 +13,15 @@
 import Tabbar from '@/components/common/Tabbar.vue'
 import Header from '@/components/home/Header.vue'
 
+
+
+
 export default {
   name: "Home",
   components:{
     Tabbar,
-    Header
+    Header,
+  
   }
 };
 </script>

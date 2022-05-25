@@ -12,20 +12,31 @@
         </div>
 
         <ly-tabs v-model="value">
-            <ly-tab-item name="1" title="选项卡1" />
-            <ly-tab-item name="2" title="选项卡2" />
+            <ly-tab-item name="1" title="推荐" />
+            <ly-tab-item name="2" title="红茶" />
+            <ly-tab-item name="3" title="绿茶" />
+            <ly-tab-item name="4" title="铁观音" />
+            <ly-tab-item name="5" title="花茶" />
+            <ly-tab-item name="6" title="普洱茶" />
+            <ly-tab-item name="7" title="茶具" />
+            <ly-tab-item name="8" title="其他" />
         </ly-tabs>
+        <section>
+            <Swiper></Swiper>
+        </section>
     </header>
 </template>
 
 <script>
+import Swiper from './Swiper.vue';
+
 export default {
-  data() {
-    return  {
-        value: '1',
-        activeColor :'#A62E29',
-    }
-  }
+    data() {
+        return {
+            value: "1",
+        };
+    },
+    components: { Swiper }
 }
 
 </script>
@@ -33,7 +44,7 @@ export default {
 
 
 <style lang="scss" scoped>
-$background-color:#A62E29;
+$background-color:rgb(22, 119, 255);
 header {
     background-color:$background-color;
     display: flex;
