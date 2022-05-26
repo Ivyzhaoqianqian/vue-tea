@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <Header></Header>
-    这是首页内容
+    <section>
+    <Swiper></Swiper>
+    </section>
 
     
   <Tabbar></Tabbar>
@@ -12,6 +14,7 @@
 <script>
 import Tabbar from '@/components/common/Tabbar.vue'
 import Header from '@/components/home/Header.vue'
+import Swiper from '@/components/home/Swiper.vue';
 
 
 
@@ -21,7 +24,7 @@ export default {
   components:{
     Tabbar,
     Header,
-  
+    Swiper
   }
 };
 </script>

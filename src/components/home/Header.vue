@@ -21,14 +21,12 @@
             <ly-tab-item name="7" title="茶具" />
             <ly-tab-item name="8" title="其他" />
         </ly-tabs>
-        <section>
-            <Swiper></Swiper>
-        </section>
+        
     </header>
 </template>
 
 <script>
-import Swiper from './Swiper.vue';
+
 
 export default {
     data() {
@@ -36,7 +34,7 @@ export default {
             value: "1",
         };
     },
-    components: { Swiper }
+    
 }
 
 </script>
