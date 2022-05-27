@@ -3,13 +3,15 @@
     <Header></Header>
     <section>
     <Swiper></Swiper>
+    <Icons></Icons>
+    <Command></Command>
     </section>
     
 
     
   <Tabbar></Tabbar>
  
-  <Icons></Icons>
+ 
   </div>
   
 </template>
@@ -19,6 +21,7 @@ import Tabbar from '@/components/common/Tabbar.vue'
 import Header from '@/components/home/Header.vue'
 import Swiper from '@/components/home/Swiper.vue';
 import Icons from '@/components/home/Icons.vue';
+import Command from '@/components/home/Command.vue';
 
 
 
@@ -29,7 +32,8 @@ export default {
     Tabbar,
     Header,
     Swiper,
-    Icons
-  }
+    Icons,
+    Command,
+}
 };
 </script>
