@@ -61,7 +61,6 @@ export default{
     width: 100%;
     height: 4.4rem;
     position: relative;
-    top: 110px;
     left: 0;
     
 };
@@ -74,6 +73,5 @@ export default{
   position: absolute;
   align-items: center;
   bottom: 2px;
-  
 }
 </style>

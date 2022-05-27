@@ -51,7 +51,7 @@ export default{
 .icons{
     display: flex ;
     justify-content:space-around ;
-    margin-top:260px;
+    margin-top:150px;
     left: 0;
 }
 

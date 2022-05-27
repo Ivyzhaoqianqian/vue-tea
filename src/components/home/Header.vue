@@ -11,16 +11,7 @@
             <i class="iconfont icon-kefu"></i>
         </div>
 
-        <ly-tabs v-model="value">
-            <ly-tab-item name="1" title="推荐" />
-            <ly-tab-item name="2" title="红茶" />
-            <ly-tab-item name="3" title="绿茶" />
-            <ly-tab-item name="4" title="铁观音" />
-            <ly-tab-item name="5" title="花茶" />
-            <ly-tab-item name="6" title="普洱茶" />
-            <ly-tab-item name="7" title="茶具" />
-            <ly-tab-item name="8" title="其他" />
-        </ly-tabs>
+        
         
     </header>
 </template>
@@ -29,11 +20,7 @@
 
 
 export default {
-    data() {
-        return {
-            value: "1",
-        };
-    },
+    
     
 }
 
@@ -48,9 +35,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
-    top:0;
-    left: 0;
     width: 100%;
     height: 50px;
 }
@@ -84,12 +68,7 @@ img{
     color: #fff;
 }
 
-.ly-tabs{
-    position: fixed;
-    top: 56px;
-    left: 0;
-    border-bottom: none;
-}
+
 
 
 
