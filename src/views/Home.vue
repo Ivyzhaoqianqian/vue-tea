@@ -20,6 +20,7 @@
         <Swiper></Swiper>
         <Icons></Icons>
         <Command></Command>
+        <Like></Like>
       </div>
     </section>
 
@@ -36,6 +37,7 @@ import Swiper from '@/components/home/Swiper.vue';
 import Icons from '@/components/home/Icons.vue';
 import Command from '@/components/home/Command.vue';
 import BetterScroll from '@better-scroll/core';
+import Like from '@/components/home/Like.vue';
 
 
 
@@ -48,7 +50,8 @@ export default {
     Swiper,
     Icons,
     Command,
-  },  
+    Like
+},  
   mounted() {
       this.init()
   },

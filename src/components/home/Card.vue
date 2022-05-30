@@ -1,6 +1,8 @@
 <template>
     <div class="title">
-      <span>爆款推荐</span>
+        <slot>
+            <span>爆款推荐</span>
+        </slot>
     </div>
 </template>
 
